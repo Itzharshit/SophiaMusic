@@ -11,7 +11,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""Hi there,👋 {message.from_user.first_name}!
-\nThis is Sophia Music Bot.
+\nThis is Army Bot CREATED BY @projectking.
 I play music on Telegram's Voice Chats.
 \nFo More Help Use Buttons Below:
  """,
@@ -21,18 +21,11 @@ I play music on Telegram's Voice Chats.
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url="https://github.com/dihanofficial/sophiamusic")
+                        "MY OWNER", url="https://t.me/projectking")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Updates Channel", url="https://t.me/SophiaUpdates"
-                    ),
-                    InlineKeyboardButton(
-                        "💻 Support Group", url="https://t.me/SophiaSupport_Official"
-                    )
-                ],[ 
-                    InlineKeyboardButton(
-                        "➕ Add Me To Your Group ➕", url="https://t.me/SophiaSLBot?startgroup=true"
-                    )]
+                        "My group", url="https://t.me/Worldwide_friends_chatting_zonee"
+                ],
             ]
         ),
      disable_web_page_preview=True
@@ -40,12 +33,12 @@ I play music on Telegram's Voice Chats.
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""*Sophia Music Bot is alive.*""",
+      await message.reply_text("""*ARMY BOT IS ALIVE.*""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Updates Channel", url="https://t.me/SophiaUpdates")
+                        "MY GROUP", url="https://t.me/Worldwide_friends_chatting_zonee")
                 ]
             ]
         )

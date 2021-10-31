@@ -24,7 +24,7 @@ I play music on Telegram's Voice Chats.
                         "MY OWNER", url="https://t.me/projectking")
                   ],[
                     InlineKeyboardButton(
-                        "My group", url="https://t.me/Worldwide_friends_chatting_zonee"
+                        "My group", url="https://t.me/Worldwide_friends_chatting_zonee")
                 ],
             ]
         ),
@@ -43,5 +43,3 @@ async def gstart(_, message: Message):
             ]
         )
    )
-
-

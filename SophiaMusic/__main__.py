@@ -1,4 +1,4 @@
-# SophiaMusic (Telegram bot project)
+# 🇮🇳 ᴀʀᴍy 🇮🇳 (Telegram bot project)
 # Copyright (C) 2021  Dihan Official
 
 # This program is free software: you can redistribute it and/or modify

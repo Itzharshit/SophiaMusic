@@ -2,7 +2,7 @@
   "name": "SophiaMusic",
   "description": "An official music player for worldwide friends zone .",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/dihanofficial/sophiamusic-v6",
+  "repository": "https://github.com/itzharshit/army",
   "stack": "container",
   "buildpacks": [
    {

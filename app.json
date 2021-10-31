@@ -1,6 +1,6 @@
 {
   "name": "SophiaMusic",
-  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "description": "An official music player for worldwide friends zone .",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/dihanofficial/sophiamusic-v6",
   "stack": "container",
@@ -30,12 +30,12 @@
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "dihan_official"
+      "value": "Worldwide_friends_chatting_zonee"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "SophiaMusic v6"
+      "value": "ᴀʀᴍy"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
@@ -44,17 +44,17 @@
     "ARQ_API_KEY": {
       "description": "Get from @ARQRobot.",
       "required": false,
-      "value": "VKSSQH-SRNJYZ-MSOJAI-QALESR-ARQ"
+      "value": ""
     },    
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": "https://telegra.ph/file/3654bea3e5284b442f932.png"
+      "value": ""
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "dihanofficial"
+      "value": ""
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
